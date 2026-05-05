@@ -5,27 +5,23 @@ A complete Seurat-based scRNA-seq analysis pipeline for comparing immune cell po
 ## Project Structure
 
 ``` bash
-scRNA-seq-with-seurat/
+scRNA-seq-Seurat-Integration/
 │
-├── integrated_scRNA/
-│   └── integrated_scRNA_pipeline.R        
-│   └── README.md                  
-│   └── results/
-│   │   ├── QC_all_samples.pdf
-|   |   ├── volcano_all_celltypes.pdf
-|   |   ├── heatmap_DEGs.png 
-│   │   ├── UMAP_condition.png 
-│   │   ├── UMAP_clusters.png
-│   │   ├── covid_vs_healthy.png
-│   │   ├── cell_proportions.png
-|   |   ├── elbow_plot.png          
-│   │   ├── all_markers_per_cluster.csv                                                          
-│   │   ├── significant_DEGs.csv
-|   |   ├── top_markers_per_cluster.csv
-|   |   ├── all_DEGs_COVID_vs_Healthy.csv 
-
-
-                    
+├── README.md 
+├── integrated_scRNA_pipeline.R
+├── results/                          
+│   ├── QC_all_samples.pdf
+|   ├── volcano_all_celltypes.pdf
+|   ├── heatmap_DEGs.png 
+│   ├── UMAP_condition.png 
+│   ├── UMAP_clusters.png
+│   ├── covid_vs_healthy.png
+│   ├── cell_proportions.png
+|   ├── elbow_plot.png          
+│   ├── all_markers_per_cluster.csv                                                          
+│   ├── significant_DEGs.csv
+|   ├── top_markers_per_cluster.csv
+|   ├── all_DEGs_COVID_vs_Healthy.csv                   
 
 ```
 
